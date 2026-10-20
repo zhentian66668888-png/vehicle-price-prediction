@@ -1,0 +1,25 @@
+{
+  "validation_date": "2026-10-20",
+  "execution": "all code cells completed sequentially in a fresh namespace using Matplotlib Agg",
+  "code_cells": 32,
+  "raw_data_rows": 301,
+  "data_file": "car data.csv",
+  "data_sha256": "00b477def120548e583c638b00146982956b80646817901245ef78da9c4b3063",
+  "metrics_original_target_scale": {
+    "train_r2_original": 0.9817374681091682,
+    "test_r2_original": 0.9850192971330466,
+    "test_rmse_original": 0.6920178892093848
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "kagglehub": "1.0.2"
+  },
+  "convergence_warning_occurrences": 423,
+  "evaluation_note": "Exploratory estimates: the historical workflow reuses the test split for model comparisons. See README for limitations."
+}
